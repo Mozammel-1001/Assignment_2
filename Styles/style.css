@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* Font Styles */
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Navigation Styles */
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.header nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav ul li {
+    list-style: none;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.nav-name {
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-btn {
+    color: #FFFFFF;
+    background-color: #FEA301;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 10px 60.5px;
+    cursor: pointer;
+}
+
+.nav-item-1 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: orange;
+}
+
+.nav-item-2 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: skyblue;
+}
+
+.nav-item-3 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #05D4DF;
+}
+
+.nav-item-4 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #5D58EF;
+}
