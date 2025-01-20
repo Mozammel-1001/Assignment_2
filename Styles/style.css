@@ -77,3 +77,43 @@
     font-size: 1.25rem;
     color: #5D58EF;
 }
+
+/* Banner Styles */
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.banner-heading {
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+}
+
+.empower {
+    color: orange;
+}
+
+.vision {
+    color: skyblue;
+}
+
+.banner-description {
+    color: black;
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+}
+
+.banner-btn {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.25rem;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 47px;
+    cursor: pointer;
+}
