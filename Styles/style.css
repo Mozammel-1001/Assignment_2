@@ -135,6 +135,14 @@
     position: absolute;
 }
 
+/* Marquee Styles */
+marquee {
+    color: #808080;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
 /* Banner Styles */
 .banner {
     display: flex;
@@ -196,6 +204,7 @@
 }
 
 .curriculum-card1 {
+    flex: 1;
     text-align: center;
     border-radius: 18px;
     border: none;
@@ -205,6 +214,7 @@
 }
 
 .curriculum-card2 {
+    flex: 1;
     text-align: center;
     border-radius: 18px;
     border: none;
@@ -214,6 +224,7 @@
 }
 
 .curriculum-card3 {
+    flex: 1;
     text-align: center;
     border-radius: 18px;
     border: none;
@@ -339,6 +350,46 @@
 .story-heading {
     font-weight: bold;
     margin: 44px 55px 34px 38px;
+}
+
+.story-img-container {
+    position: relative;
+}
+
+.story-card-btn1 {
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 48px;
+    border: none;
+    background-color: #95B226;
+    position: absolute;
+    left: 13%;
+    top: 87%;
+}
+
+.story-card-btn2 {
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 48px;
+    border: none;
+    background-color: #3CD8E8;
+    position: absolute;
+    left: 7%;
+    top: 94%;
+}
+
+.story-card-btn3 {
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 48px;
+    border: none;
+    background-color: #5D58F0;
+    position: absolute;
+    left: 13%;
+    top: 87%;
 }
 
 .story-btn {
@@ -538,8 +589,6 @@
     }
 
     .story-cards {
-        display: flex;
-        gap: 20px;
         margin-bottom: 30px;
     }
 
@@ -549,6 +598,7 @@
     }
 
     .story-cards-mini {
+        grid-template-columns: calc(50% - 6.5px) calc(50% - 6.5px);
         gap: 10px;
     }
 
@@ -561,12 +611,23 @@
     }
 
     .story-heading {
-        font-weight: bold;
-        margin: 25px 32px 20px 22px;
+        margin: 35px 32px 20px 22px;
     }
 
     .story-btn {
         padding: 10px 35px;
+    }
+
+    .story-card-btn1 {
+        padding: 6px 12px;
+        left: 10%;
+        top: 83%;
+    }
+
+    .story-card-btn3 {
+        padding: 6px 12px;
+        left: 10%;
+        top: 83%;
     }
 
     /* Footer Styles */
