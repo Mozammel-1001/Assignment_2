@@ -527,14 +527,50 @@
 
     .curriculum-btns {
         display: none;
+        position: absolute;
     }
 
-    .curriculum-btn {
-        border-radius: 50%;
-        border: none;
-        background-color: orange;
-        padding: 18px 22px;
-        cursor: pointer;
-        color: #FFFFFF;
+    /* Stories Styles */
+    .stories {
+        padding: 20px 10px 60px;
+        background-repeat: repeat-y;
+        background-size: 100% auto;
     }
+
+    .stories-heading {
+        margin-bottom: 40px;
+    }
+
+    .story-cards {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .story-card {
+        display: none;
+        position: relative;
+    }
+
+    .story-cards-mini {
+        gap: 10px;
+    }
+
+    .story-card-mini {
+        border-radius: 10px;
+    }
+
+    .story-card-mini-img {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .story-heading {
+        font-weight: bold;
+        margin: 25px 32px 20px 22px;
+    }
+
+    .story-btn {
+        padding: 10px 35px;
+    }
+
 }
