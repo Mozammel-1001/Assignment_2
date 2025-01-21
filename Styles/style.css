@@ -85,6 +85,49 @@
     color: #5D58EF;
 }
 
+.nav-item-5 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.header .menu hr {
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.header .menu-btn {
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header nav .menu ul {
+    flex-direction: column;
+}
+
+.header nav .menu ul li a {
+    margin-right: 0px;
+}
+
+.header .menu li .drop-down {
+    display: none;
+    position: absolute;
+    background-color: #DEF5FF;
+    padding: 10px;
+}
+
+.header .menu li .menu-btn:hover>.drop-down {
+    display: block;
+    text-align: justify;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+}
+
 /* Banner Styles */
 .banner {
     display: flex;
@@ -358,4 +401,38 @@
 
 .footer-column3 a img {
     margin-right: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+/* Responsive For Mobile Device */
+@media screen and (max-width:576px) {
+
+    /* Navigation Styles */
+    .header nav {
+        margin: 40px 10px;
+    }
+
+    .header nav .nav-bar ul li a {
+        display: none;
+    }
+
+    .nav-name {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        position: static;
+    }
+
+    .header .menu li .menu-btn:hover>.drop-down {
+        right: 15px;
+    }
 }
