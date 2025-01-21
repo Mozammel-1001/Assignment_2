@@ -128,6 +128,13 @@
     position: absolute;
 }
 
+.header>hr {
+    width: 100%;
+    border: 1px solid orange;
+    display: none;
+    position: absolute;
+}
+
 /* Banner Styles */
 .banner {
     display: flex;
@@ -412,7 +419,7 @@
 
     /* Navigation Styles */
     .header nav {
-        margin: 40px 10px;
+        margin: 12px 10px;
     }
 
     .header nav .nav-bar ul li a {
@@ -434,5 +441,100 @@
 
     .header .menu li .menu-btn:hover>.drop-down {
         right: 15px;
+    }
+
+    .header>hr {
+        display: block;
+        position: static;
+    }
+
+    /* Banner Styles */
+    .banner {
+        flex-direction: column-reverse;
+        gap: 10px;
+        margin: 20px 10px;
+    }
+
+    .banner-img-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-img {
+        width: calc(100% - 20px);
+    }
+
+    .banner-heading {
+        margin-bottom: 18px;
+        text-align: center;
+    }
+
+    .banner-description {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .banner-btn-container {
+        text-align: center;
+    }
+
+    .banner-btn {
+        border-radius: 8px;
+        padding: 10px 24px;
+    }
+
+    /* Curriculum Styles */
+    .curriculum {
+        padding: 20px 10px;
+        background-repeat: repeat-y;
+        background-size: 100% auto;
+    }
+
+    .curriculum-heading {
+        margin-bottom: 20px;
+    }
+
+    .curriculum-cards {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .curriculum-card1 {
+        border-radius: 12px;
+    }
+
+    .curriculum-card2 {
+        border-radius: 12px;
+    }
+
+    .curriculum-card3 {
+        border-radius: 12px;
+    }
+
+    .card-img {
+        height: auto;
+    }
+
+    .card-heading {
+        margin-top: 22px;
+        margin-bottom: 22px;
+    }
+
+    .card-description {
+        margin-bottom: 22px;
+    }
+
+    .curriculum-btns {
+        display: none;
+    }
+
+    .curriculum-btn {
+        border-radius: 50%;
+        border: none;
+        background-color: orange;
+        padding: 18px 22px;
+        cursor: pointer;
+        color: #FFFFFF;
     }
 }
