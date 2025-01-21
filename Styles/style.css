@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Font Styles */
 .quicksand-font {
     font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raleway-font {
+    font-family: "Raleway", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -274,6 +282,7 @@
 }
 
 .story-card-mini-img {
+    width: 100%;
     border-radius: 16px 16px 0 0;
 }
 
@@ -295,4 +304,58 @@
 
 .btn-story {
     text-align: center;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #ccffcc;
+    padding: 125px 230px 175px 140px;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 140px;
+}
+
+.footer-column1 {
+    width: calc(50% - 100px);
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.column1-heading {
+    font-weight: bold;
+    font-size: 2.625rem;
+    text-decoration: none;
+    color: black;
+}
+
+.column1-description {
+    font-size: 1.25rem;
+    color: #666666;
+}
+
+.column2-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.column2-description {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #666666;
+}
+
+.column3-heading {
+    font-weight: bold;
+    font-size: 1.625rem;
+}
+
+.footer-column3 a img {
+    margin-right: 10px;
 }
